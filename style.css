@@ -1,0 +1,445 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100vw;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+    list-style: none;
+    font-family: Circular, Tahoma, sans-serif;
+    justify-content: space-around;
+}
+
+li {
+    position: relative;
+    bottom: -13px;
+    font-size: larger;
+    color: rgb(116, 107, 107);
+}
+
+li1 {
+    position: relative;
+    top: 4px;
+}
+
+li2 {
+    font-size: large;
+    border: solid #212ec5 2px;
+    border-radius: 4px;
+    color: #212ec5;
+    padding: 9px;
+    font-style: initial;
+}
+
+.grid {
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+
+}
+
+.left {
+    color: #1a2b6b;
+    display: inline;
+    width: 39.1vw;
+    padding: 16px 24px 16px 16px;
+    background-color: rgb(232, 237, 239);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Circular, Tahoma, sans-serif;
+}
+
+.transaction {
+    font-size: 16px;
+}
+
+.value {
+    font-weight: bold;
+    position: relative;
+    font-size: 16px;
+    top: -1px;
+    left: 6px;
+}
+
+.indication {
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+
+.right {
+    display: inline;
+    width: 55vw;
+    padding: 16px 24px 16px 16px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: center;
+    background-color: #1a2b6b;
+    font-family: Circular, Tahoma, sans-serif;
+    color: white;
+}
+
+.ticket {
+    text-decoration: underline;
+}
+
+.main2 {
+    height: 80vh;
+    /* width: 100vw; */
+    background-image: url("/chainlink.imafe.webp");
+    background-size: cover;
+}
+
+.heading {
+    width: 50vw;
+    padding: 0px 0px 0px 60px;
+    font-size: 65px;
+    font-family: Circular, Tahoma, sans-serif;
+    position: relative;
+    top: 55px;
+    color: #1a2b6b;
+    line-break: normal;
+    line-height: 73.5px;
+
+}
+
+.heading2 {
+
+    width: 50vw;
+    color: #1a2b6b;
+    padding: 0px 0px 0px 67px;
+    position: relative;
+    bottom: 0px;
+    top: 99px;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 26.5px;
+    font-family: Circular, Tahoma, sans-serif;
+}
+
+.grid2 {
+    height: 10vh;
+    width: 30vw;
+    grid-template-columns: auto auto;
+    display: grid;
+    font-size: 18px;
+    column-gap: 20px;
+    font-family: Circular, Tahoma, sans-serif;
+    padding: 0px 0px 0px 65px;
+    position: relative;
+    top: 148px;
+}
+
+.btn1 {
+    padding: 19px;
+    border: 3px solid #212ec5;
+    background-color: #212ec5;
+    grid-row-gap: 22px;
+    color: white;
+    border-radius: 4px;
+    font-family: Circular, Tahoma, sans-serif;
+}
+
+.btn2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 17px;
+    border: 3px solid #212ec5;
+    background-color: white;
+    color: #212ec5;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Circular, Tahoma, sans-serif;
+}
+
+.help {
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 178px;
+
+}
+
+.chat {
+    position: relative;
+    left: 20px;
+
+}
+
+.qus {
+    position: relative;
+    left: 25px;
+    color: #1a2b6b;
+    font-family: Circular, Tahoma, sans-serif;
+}
+
+
+.cont {
+    position: relative;
+    left: 30px;
+    text-decoration: underline;
+    color: #1a2b6b;
+    font-family: Circular, Tahoma, sans-serif;
+
+}
+
+.logobar {
+    /* width: 100vw; */
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    padding: 40px;
+    border-bottom: 1px solid #dfe7fb;
+    border-top: 1px solid #dfe7fb;
+}
+
+.logo1 {
+    background-image: url("/truefi\ logo.svg");
+    width: 10vw;
+    background-repeat: no-repeat;
+    background-size: 114px;
+}
+
+.logo2 {
+    background-size: 170px;
+    background-image: url("/synthetix@2x\ logo.webp");
+    height: 6vh;
+    width: 14vw;
+    background-repeat: no-repeat;
+}
+
+.logo3 {
+    background-size: 110px;
+    background-image: url("/paxos\ logo.webp");
+    height: 6vh;
+    width: 9vw;
+    background-repeat: no-repeat;
+}
+
+.logo4 {
+
+    background-size: 160px;
+    background-image: url("/nexus-mutual@2x\ logo.webp");
+    height: 6vh;
+    width: 13vw;
+    background-repeat: no-repeat;
+}
+
+.logo5 {
+    background-size: 150px;
+    background-image: url("/bar-compound\ logo.webp");
+    height: 15vh;
+    width: 12vw;
+    background-repeat: no-repeat;
+}
+
+.logo6 {
+    background-size: 105px;
+    background-image: url("/aave@2x\ logo.webp");
+    height: 6vh;
+    width: 9vw;
+    background-repeat: no-repeat;
+}
+
+.logo7 {
+    background-size: 105px;
+    background-image: url("/_logo-bar-ens@2x.webp");
+    height: 15vh;
+    width: 9vw;
+    background-repeat: no-repeat;
+
+}
+
+.main-heading {
+    color: #1a2b6b;
+    font-family: Circular, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 43px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.grid-main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 80px;
+}
+
+.box {
+    height: 60vh;
+    width: 18vw;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: #fff;
+    border: 1px solid #e7e8ea;
+}
+
+.wrap {
+    height: 56px;
+    width: 56px;
+    border: 1px solid #dfe7fb;
+    border-radius: 29px;
+    background-color: #f5f7fd;
+    position: relative;
+    top: 35px;
+    left: 10px;
+}
+
+.onee {
+    background-image: url("/decentralized\ logo.svg");
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 10px;
+    position: relative;
+}
+
+.twoo {
+    background-image: url("/browser\ logo.svg");
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 10px;
+    position: relative;
+}
+
+.threee {
+    background-image: url("/lock\ logo.svg");
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 10px;
+    position: relative;
+
+}
+
+.fourr {
+    background-image: url("/keeper.svg");
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 10px;
+    position: relative;
+}
+
+h2 {
+    position: relative;
+    top: 60px;
+    font-size: 17px;
+    color: #1a2b6b;
+    font-family: Circular, Tahoma, sans-serif;
+
+}
+
+p {
+    position: relative;
+    top: 80px;
+    color: #6d7380;
+    font-family: Circular, Tahoma, sans-serif;
+    line-height: 27px;
+}
+
+.one {
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+.two {
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+.three {
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+.four {
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+.main-btn {
+    height: 10vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #212ec5;
+    position: relative;
+    left: 450px;
+    top: 100px;
+    font-size: 20px;
+    color: #212ec5;
+    border-radius: 4px;
+    font-family: Circular, Tahoma, sans-serif;
+}
+
+.footer {
+    height: 20vh;
+    width: 100vw;
+    color: #585b60;
+    background-color: #0c162c;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: larger;
+
+}
+
+.ch-logo {
+    background-image: url("/footer\ logo.svg");
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 9vw;
+    /* padding-left: 190px; */
+    position: relative;
+    left: 40px;
+}
+
+
+.footer-logo {
+    background-image: url("/USA\ logo.svg");
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw;
+}
+
+.policy {
+    position: relative;
+    right: 150px;
+}
+
+.language {
+    position: relative;
+    right: 150px;
+}
+
+.term {
+    position: relative;
+    right: 190px;
+}
